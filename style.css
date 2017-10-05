@@ -1,0 +1,213 @@
+/* Font size conversion
+
+5px		0.3125em	31.25%
+6px		0.3750em	37.50%
+7px		0.4375em	43.75%
+8px		0.5000em	50.00%
+9px		0.5625em	56.25%
+10px	0.6250em	62.50%
+11px	0.6875em	68.75%
+12px	0.7500em	75.00%
+13px	0.8125em	81.25%
+14px	0.8750em	87.50%
+15px	0.9375em	93.75%
+16px	1.0000em	100.00%
+17px	1.0625em	106.25%
+18px	1.1250em	112.50%
+19px	1.1875em	118.75%
+20px	1.2500em	125.00%
+21px	1.3125em	131.25%
+22px	1.3750em	137.50%
+23px	1.4375em	143.75%
+24px	1.5000em	150.00%
+25px	1.5625em	156.25%
+
+*/
+
+body {
+	margin:0;
+	padding:0;
+	font-family:Helvetica, Arial, sans-serif;
+	text-align:center; /* Necessary for IE 6,7,8 */
+}
+
+p {
+	font-weight:lighter;
+	line-height:150%;
+}
+
+h1 {
+	font-size:1.5em;
+}
+
+h2 {
+	font-size:1.375em;
+}
+
+h3 {
+	font-size:1.25em;
+}
+	
+h4 {
+	font-size:1.125em;
+}
+
+a img {
+	border:none; /* necessary for IE 6-10 */
+}
+
+a:link {
+	color: #666;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #666;
+	text-decoration: underline;
+}
+
+a:hover, 
+a:active {
+	color: orange;
+	text-decoration: underline;
+}
+
+ul li {
+	list-style-image: url('images/li_yellow.png');
+}
+
+.highlight {
+	color: orange;
+}
+
+a.highlight:link {
+	color: orange;
+	text-decoration: none;
+}
+
+a.highlight:visited {
+	color: orange;
+	text-decoration: none;
+}
+
+a.highlight:hover, 
+a.highlight:active {
+	color: orange;
+	text-decoration: underline;
+}
+
+#header {
+	padding-top:1em;
+	padding-bottom:34px; /* the height of background image */
+	background-image: url('images/border.gif');
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+#footer {
+	padding-bottom:1em;
+	border-top:1px solid #aaa;
+}
+
+.container {
+	margin:0 auto;
+	width:900px;
+	font-size:100%;
+	text-align:left;
+	overflow:hidden; /* Necessary for background-position in header for IE 11 */
+}
+
+/* 900 and less */
+@media screen and (max-width: 900px) {
+  .container {
+	width:auto;
+    font-size: 100%;
+  }
+}
+
+/* 720 and less */
+@media screen and (max-width: 720px) {
+  .container {
+    font-size: 87.5%;
+  }
+}
+
+/* 640 and less */
+@media screen and (max-width: 640px) {
+  .container {
+    font-size: 75%;
+  }
+}
+
+/* 480 and less*/
+@media screen and (max-width: 480px) {
+  .container {
+    font-size: 50%;
+  }
+}
+
+#header .title {
+	width: 180px;
+	padding-bottom:0.5em;
+	text-align: right;
+}
+
+#header h1 {
+	margin:0;
+	padding:0;
+	line-height:150%;
+	font-size:2.25em;
+	font-weight:lighter;
+}
+
+#header h1 span {
+	font-weight:bold;
+}
+
+#header p {
+	margin:0;
+	padding:0;
+}
+
+#main .container {
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+
+table.section {
+	width: 100%;
+	margin-bottom: 1.5em;
+}
+
+table.section td p {
+	margin:0;
+	padding:0;
+}
+
+table.section td.pic img {
+	width: 100%;
+}
+
+table.section td.pic {
+	border: 1px solid #BEBEBE;
+	padding: 0;
+	width: 178px;
+	text-align: center;
+	vertical-align: center;
+}
+
+table.section td.text {
+	padding-left: 1.5em;
+	padding-right: 1em;
+	vertical-align: top;
+}
+
+table.section td.side {
+	width: 12em;
+	padding-left: 1em;
+	border-left: 1px solid #BEBEBE;
+	font-size: 0.8125em;
+	vertical-align: top;
+}
+
+
