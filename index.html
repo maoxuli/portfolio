@@ -1,378 +1,51 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-   "http://www.w3.org/TR/html4/loose.dtd">
-
 <html lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="format-detection" content="telephone=no">
-	<link rel="shortcut icon" href="/images/favicon.png">
-	<link rel="icon" href="/images/favicon.png" type="image/png">
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?" />
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 	<title>Maoxu Li - Portfolio</title>
 </head>
 <body>
 <div id="header">
 	<div class="container">
-		<div class="title">
-			<h1>MAOXU <span>LI</span></h1>
-			<p>Programmer</p>
-			<p>Software Engineer</p>
-			<p>Development Manager</p>
+		<h1>MAOXU <span>LI</span></h1>
+		<div class="wrap">
+			<h2>PORTFOLIO</h2>
+			<p>Software Development</p>
 		</div>
 	</div>
 </div>
 <div id="main">
 	<div class="container">
-		<table class="section">
-			<tr>
-				<td class="pic">
-					<img src="images/betterdrive.png" />
-				</td>
-				<td class="text">
-					<p><span class="highlight">BetterDrive</span> is a improved personal cloud storage system. It lets the users own and control their files absolutely on their private storage center, while benefits from cloud features include remote access over Internet, synchronization among multiple devices, share and collaboration with others. The software works on the top of PPEngine that leveraged technologies like peer-to-peer networking, VPN, and WebRTC/ORTC.</p>
-				</td>
-				<td class="side">
-					<p>C++, STL</p>
-					<p>Javascript, JQuery</p>
-					<p>WebRTC/ORTC, VPN</p>
-					<p>Samba, SMB/CIFS</p>
-					<p>Windows, Visual Studio</p>
-					<p>Mac OSX, Xcode</p>
-					<p>Linux, GCC/G++/GDB</p>
-				</td>
-			</tr>
-		</table>
-		<table class="section">
-			<tr>
-				<td class="pic">
-					<img src="images/face.png" />
-				</td>
-				<td class="text">
-					<p><span class="highlight">Face Detection</span> is used to determines the locations and sizes of faces in a digital image. <span class="highlight">Face Recognition</span> is used to automatically identify a person in a digital image and determine the person’s main characteristics, such as age and gender. This program demonstrated face detection with a HAAR cascade classifier in <span class="highlight">OpenCV</span>. Each detected face is marked with a rectangular box and saved as a separate image file, which can be used for face recognition later with algorithms in OpenCV, such as Eigenfaces, Fisherfaces, and Local Binary Patterns Histograms (LBPH). Face detection and recognition can be used in photo management or video surveillance system. </p>
-				</td>
-				<td class="side">
-					<p>C++, STL</p>
-					<p>OpenCV</p>
-					<p>HAAR</p>
-					<p>Xcode</p>
-					<p>Mac OSX</p>
-				</td>
-			</tr>
-		</table>
-		<table class="section">
-			<tr>
-				<td class="pic">
-					<img src="images/clipsender.png" />
-				</td>
-				<td class="text">
-					<p><span class="highlight">ClipSender</span> is a small software to send current contents of Windows system clipboard to a given URL with HTTP POST method. The program responds to keyboard shortcut like CTRL+S with a global keyboard hook implemented in a Win32 DLL. The program presents a Win32 GUI with a system tray icon.</p>
-				</td>
-				<td class="side">
-					<p>Win32 clipboard API</p>
-					<p>Win32 WinHTTP API</p>
-					<p>Global keyboard hook</p>
-					<p>UTF-8, Unicode</p>
-					<p>Win32 DLL</p>
-					<p>Windows, Visual C++</p>
-				</td>
-			</tr>
-		</table>
-		<table class="section">
-			<tr>
-				<td class="pic">
-					<img src="images/ppengine.png" />
-				</td>
-				<td class="text">
-					<p><span class="highlight">PPEngine</span> is a software framework for peer-to-peer (P2P) networking that I developed for Limlabs. The aim of this project is to build a library (or framework) to make it easier to introduce peer-to-peer features into network applications. It leveraged existing technologies like NAT traversal (libjingle), VPN (IPOP, N2N), and WebRTC/ORTC.</p>
-				</td>
-				<td class="side">
-					<p>C++, STL, XML</p>
-					<p>TCP/UDP</p>
-					<p>HTTP, DNS</p>
-					<p>NAT, STUN/TURN/ICE</p>
-					<p>Windows, Visual Studio</p>
-					<p>Linux, GCC/G++/GDB</p>
-				</td>
-			</tr>
-		</table>
-		
-		
-		<table class="section">
-			<tr>
-				<td class="pic">
-					<img src="images/stun.png" />
-				</td>
-				<td class="text">
-					<p><span class="highlight">NAT</span> traversal is necessary for network applications with peer-to-peer features. A series of IETF RFC specifications have been proposed to help NAT traversal issues. This program follows RFC 3489/5389 to demonstrate NAT discovery with help of a STUN server. Programming involves a parser of STUN messages and the work flow of NAT discovery proposed in RFC 3489/5389.</p>
-				</td>
-				<td class="side">
-					<p>C++, STL</p>
-					<p>Socket, TCP/UDP</p>
-					<p>NAT, STUN</p>
-					<p>Xcode</p>
-					<p>Mac OSX</p>
-				</td>
-			</tr>
-		</table>
-		<table class="section">
-			<tr>
-				<td class="pic">
-					<img src="images/dns.png" />
-				</td>
-				<td class="text">
-					<p>This is C++ implementation of a parser for <span class="highlight">DNS</span> packets. With these classes your applications can easily send request packets to DNS server, and parse received response packets. It handles most of DNS resource records types, such as A, MX, CName, TXT, and so on.</p>
-				</td>
-				<td class="side">
-					<p>C++, STL</p>
-					<p>DNS</p>
-					<p>socket, TCP/UDP</p>
-					<p>Windows, Linux</p>
-				</td>
-			</tr>
-		</table>
-		<table class="section">
-			<tr>
-				<td class="pic">
-					<img src="images/crypto.png" />
-				</td>
-				<td class="text">
-					<p><span class="highlight">Cryptography</span> plays a important role in network security. This is a demo program for the usage of Crypto++, a C++ cryptography library, and JCE, a Java cryptography extension.</p>
-				</td>
-				<td class="side">
-					<p>C++, Java</p>
-					<p>Crypto++</p>
-					<p>JCE</p>
-					<p>DES, AES, BLOWFISH</p>
-					<p>RSA, ECC</p>
-				</td>
-			</tr>
-		</table>
-		<table class="section">
-			<tr>
-				<td class="pic">
-					<img src="images/ppcast.png" />
-				</td>
-				<td class="text">
-					<p><span class="highlight">PPCast</span> is a on-demand video streaming system that I developed for Limlabs. The aim of this project is to design a better architecture for peer-to-peer video streaming. The video contents are packed into RTP packets and delivered from server to client, or from client to client, driven by data availability. It currently supports ASF/WMV file formats only, but extendable to other formats.</p>
-				</td>
-				<td class="side">
-					<p>C++, STL</p>
-					<p>MFC, ActiveX</p>
-					<p>TCP/UDP, RTP/RTSP</p>
-					<p>ASF/WMV</p>
-					<p>Visual Studio 2008</p>
-					<p>GCC/G++/GDB</p>
-					<p>Windows, Linux</p>
-				</td>
-			</tr>
-		</table>
-		
-		<table class="section">
-			<tr>
-				<td class="pic">
-					<img src="images/rtsp.png" />
-				</td>
-				<td class="text">
-					<p><span class="highlight">RTSP</span> is one of the most popular media streaming protocols. Itself is a session manager protocol. The media contents are delivered via RTP protocol once the session is established. Here is C++ implementation of a simplified RTSP server that can be embedded in applications to interact with RTSP clients. Programming involves TCP server, RTSP methods handling, session management, and RTP streaming over UDP. No RTCP is included in this code.</p>
-				</td>
-				<td class="side">
-					<p>C++, STL</p>
-					<p>TCP/UDP</p>
-					<p>RTP/RTSP</p>
-				</td>
-			</tr>
-		</table>
-		<table class="section">
-			<tr>
-				<td class="pic">
-					<img src="images/rtp.png" />
-				</td>
-				<td class="text">
-					<p><span class="highlight">RTP</span> is one of the most popular media streaming protocols used to deliver media contents over UDP. Here is C++ implementation for packing media data into RTP packets. It currently supports video file formats of ASF/WMV and RM/RMVB, and extendable to other formats.</p>
-				</td>
-				<td class="side">
-					<p>C++, STL</p>
-					<p>RTP/RTSP</p>
-					<p>ASF/WMV</p>
-					<p>RM/RMVB</p>
-				</td>
-			</tr>
-		</table>
-		<table class="section">
-			<tr>
-				<td class="pic">
-					<img src="images/hat.png" />
-				</td>
-				<td class="text">
-					<p><span class="highlight">Hat</span> is a class project for my coursework at The George Washington University. The aim of this project is to develop an application with networking technologies. The software manages personal photos stored in distributed heterogenous storage devices. Programming involved database, file system events (FSEvent on Mac OSX), file states information, photo file metadata, identical photo analysis, and APIs of online photo storage services.</p>
-				</td>
-				<td class="side">
-					<p>C++, STL</p>
-					<p>SQLite, SQL, OTL</p>
-					<p>Zero ICE</p>
-					<p>OpenCV, ImageMagic</p>
-					<p>Flickr API</p>
-					<p>Xcode</p>
-					<p>Mac OSX</p>
-				</td>
-			</tr>
-		</table>
-		<table class="section">
-			<tr>
-				<td class="pic">
-					<img src="images/tie.png" />
-				</td>
-				<td class="text">
-					<p><span class="highlight">Tie</span> is a class project for my coursework at The George Washington University. The aim of this project is to study the modern software architectures for social networks. Except for traditional web development technologies, like database design and dynamic web programming, it also involved web service with HTTP/REST interface, Android GUI application programming with Java.</p>
-				</td>
-				<td class="side">
-					<p>PHP, SQL</p>
-					<p>HTML/CSS, Javascript</p>
-					<p>Android, Java</p>
-					<p>Eclipse, ADT</p>
-					<p>Apache, MySQL</p>
-					<p>Linux</p>
-				</td>
-			</tr>
-		</table>
-		<table class="section">
-			<tr>
-				<td class="pic">
-					<img src="images/lamp.png" />
-				</td>
-				<td class="text">
-					<p>This is a class project for my coursework at The George Washington University. The aim of this project is to experience the full lifecycle of software development, from analysis and design, through implementation and testing, with a web application running on LAMP (Linux, Apache, MySQL, and PHP) platform. I worked as a team member (leader) with other 2 classmates. Programming involved a simple MVC framework and database design.</p>
-				</td>
-				<td class="side">
-					<p>PHP, SQL</p>
-					<p>HTML/CSS, Javascript</p>
-					<p>MVC framework</p>
-					<p>SpeedPHP</p>
-					<p>Apache, MySQL</p>
-					<p>Linux</p>
-				</td>
-			</tr>
-		</table>
-		<table class="section">
-			<tr>
-				<td class="pic">
-					<img src="images/firewind.png" />
-				</td>
-				<td class="text">
-					<p><span class="highlight">FireWind</span> is a Internet video streaming system (WebTV) that works in a peer-to-peer (P2P) fashion. I worked on this project as a Senior Software Engineer (Architect) at first and a Director of Software Development later. The system includes web-based applications for management, servers running on Windows and Linux, client side application and ActiveX control. My work involved in the full lifecycle of the software development.</p>
-				</td>
-				<td class="side">
-					<p>C++, STL, MFC</p>
-					<p>Winsock, TCP/UDP</p>
-					<p>HTTP, RTP/RTSP</p>
-					<p>ASF/WMV, RM/RMVB</p>
-					<p>Win32, ActiveX</p>
-					<p>Visual Studio 6.0/2003</p>
-					<p>GCC/G++/GDB</p>
-					<p>Windows, Linux</p>
-				</td>
-			</tr>
-		</table>
-		
-		<table class="section">
-			<tr>
-				<td class="pic">
-					<img src="images/skin.png" />
-				</td>
-				<td class="text">
-					<p>This program demonstrated a new way to implement <span class="highlight">skin</span> features in desktop applications. A Flash file is loaded with a Flash Player ActiveX control and displayed as the GUI of the application, like that in some web applications. Commands and data can be exchanged between Flash and application. Changing skin is nothing more than reloading another Flash file with the same predefined interface.</p>
-				</td>
-				<td class="side">
-					<p>C++, MFC</p>
-					<p>ActiveX</p>
-					<p>Adobe Flash, SWF</p>
-					<p>Skin</p>
-					<p>Visual Studio 6.0</p>
-					<p>Windows 2000/XP</p>
-				</td>
-			</tr>
-		</table>
-		<table class="section">
-			<tr>
-				<td class="pic">
-					<img src="images/treegrid.png" />
-				</td>
-				<td class="text">
-					<p>This is an <span class="highlight">ActiveX</span> control of tree grid view, which is used in an web application to present a complex administration interface. It leveraged TreeControl in Win32 GUI and provides more customized features to meet the needs of web applications.</p>
-				</td>
-				<td class="side">
-					<p>C++, MFC</p>
-					<p>ActiveX</p>
-					<p>Win32 API</p>
-					<p>Visual Studio 6.0</p>
-					<p>Windows 2000/XP</p>
-				</td>
-			</tr>
-		</table>
-		<table class="section">
-			<tr>
-				<td class="pic">
-					<img src="images/goldeneye.png" />
-				</td>
-				<td class="text">
-					<p><span class="highlight">GoldenEye</span> is a digital video surveillance system that supports remote control and monitor over Internet. I worked in the team as a Software Engineer at first and an Software Architect later. Work involved digital video compression, video streaming over Internet, and smart features like silent/motion detection, face detection/recognition. I designed a DirectShow-like but simplified video processing architecture.</p>
-				</td>
-				<td class="side">
-					<p>C++, STL, MFC</p>
-					<p>Win32 API, ActiveX</p>
-					<p>Winsock, TCP/UDP, HTTP</p>
-					<p>MPEG,H.26x</p>
-					<p>JPEG, MJPEG</p> 
-					<p>OpenCV, Intel IJL/IPL</p>
-					<p>Visual Studio 6.0</p>
-					<p>Windows 2000/XP</p>
-				</td>
-			</tr>
-		</table>
-		<table class="section">
-			<tr>
-				<td class="pic">
-					<img src="images/forwardit.png" />
-				</td>
-				<td class="text">
-					<p><span class="highlight">ForwardIt</span> is a real-time data forwarding system. The server software receives data from a UDP unicast or multicast address and resend it to one or more predefined addresses (unicast or multicast). The client software receives and displays the forwarded data, and has a control panel to subscribe data channels. The server supports multiple real-time data channels forwarding simultaneously.</p>
-				</td>
-				<td class="side">
-					<p>C++</p>
-					<p>MFC, Winsock</p>
-					<p>TCP/UDP, Multicast</p>
-					<p>ORB style RPC</p>
-					<p>Zero ICE</p>
-					<p>Visual Studio 6.0</p>
-					<p>Windows 2000/XP</p>
-				</td>
-			</tr>
-		</table>
-		<table class="section">
-			<tr>
-				<td class="pic">
-					<img src="images/bho.png" />
-				</td>
-				<td class="text">
-					<p>This is a <span class="highlight">BHO</span> (Browser Helper Object) plugin for Internet Explorer (IE) that developed for Sony IP Camera SNC-RZ30 applications. The BHO filters particular images objects (with tag img and predefined src) and conducts certain processing on the images before they are rendered. There is also a management tool to install or uninstall the BHO plugin.</p>
-				</td>
-				<td class="side">
-					<p>C++, MFC</p>
-					<p>BHO, COM</p>
-					<p>Intel IJL/IPL</p>
-					<p>SkinMagic</p>
-					<p>Visual Studio 6.0</p>
-					<p>Windows 2000/XP</p>
-				</td>
-			</tr>
-		</table>
+		<div class="section">
+			<h3>An open-source C++ library for network programming (NetB)</h3>
+			<p>NetB was originally initiated as my class project for Computer Networks, 
+				when I was a student at the George Washington University. It was designed 
+				as a C++ library implements object-oriented interface for network programming. 
+				During the past years, NetB evolved from time to time, as the result of my 
+				practice-based learning of network programming. The code involves object-oriented 
+				design and C++ programming, socket API, error handling, event-driven notification 
+				and asynchronous I/O (reactor design pattern), I/O buffer and protocol message 
+				serialization, and implementation of popular Internet protocols (Fig.1). NetB is 
+				not a software framework; it is a library consists of the components useful for 
+				assembling network applications.</p>
+			<img src="./images/netb.png" />
+			<p>NetB was the basis of my projects that involved network programming and now 
+				released as an open-source software library under GPL 3.0 or later. The repository 
+				of source code and documents is at https://github.com/maoxuli/netb. It currently 
+				is still under development and there is no guarantee for its stability. You may 
+				use it as a good example for learning socket programming or as a code base for 
+				network applications. The supported platforms will include the major operating 
+				systems for server, desktop PC, mobile device, and microcomputer like Raspberry PI.</p>
+		</div>
+		<div class="section">
+			
+		</div>
 	</div>
 </div>
 <div id="footer">
 	<div class="container">
-		<p>Copyright 2000-2014 Maoxu Li. Please contact at <a href="#">maoxu@limprove.com</a> for any questions.</p>
+		<p>&copy; 2000-2017 Maoxu Li. All rights reserved. maoxu@liinno.com</p>
 	</div>
 </div>
 </body>
