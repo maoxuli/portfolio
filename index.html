@@ -57,63 +57,63 @@
 				and in most cases it can establish direct UDP connections across public Internet, 
 				which is a guarantee for high throughput and low latency.  </p>
 		</div>
-	</div>
-	<div class="section">
-		<h3>Live and On-Demand Peer-to-Peer Video Streaming</h3>
-		<p>In a traditional media streaming system, content is constantly delivered directly from 
-			media server to each of the clients. Bandwidth cost usually determined application 
-			deployment and system expansion (Fig.6). I had ever led a team to develop a peer-to-peer 
-			(P2P) media streaming system to support low-cost streaming media. In the system, all 
-			clients work as peer nodes simultaneously functioning as “clients” and “servers” to the 
-			other nodes. Media content is firstly sliced into pieces by source server, and then the 
-			content pieces are delivered from server to nodes or forwarded from nodes to nodes as 
-			requested, rather than constantly (Fig.7). </p>
-		<img src="./images/media-streaming.png" />
-		<p>A node has a playing position and usually caches a range of content around its current 
-			position. Distance of two nodes is the difference of their playing positions. Each node
-			keeps a list of peers (other known nodes) that sorted on the distance. A node distributes 
-			its cache information periodically to neighbors (some nearest peers), and forwards 
-			received cache information to neighbors too (Fig.3). Nodes always try to download content 
-			pieces from selected neighbors (partners) firstly, and only turn to source server when a 
-			slice cannot be delivered in time from partners. A node will schedule downloading from 
-			partners or from server based on the maps of content availability updated by partners. 
-			In addition, nodes also report their cache information periodically to a tracker sever, 
-			so that the tracker server actually keeps a complete list of nodes and their cache 
-			information. When a node just joins the system or in any emergent situations, it may 
-			fetch an initial list of peers from the tracker server (Fig.8). </p>
-		<img src="./images/p2p-streaming.png" />
-		<p>We had also developed a web-based application to provide live and on-demand video streaming 
-			service, which supports both traditional media streaming system and our P2P media streaming 
-			system as backbone. The application consists of web portal, users management, and 
-			advertisement management. I worked as a director to contribute to product requirements, 
-			system design, and daily management of software development (Fig.8). </p>
-	</div>
-	<div class="section">
-		<h3>Digital and Network-Based Video Surveillance</h3>
-		<p>I spent the first 5 years of my career as software developer in the area of video 
-			surveillance, during its latest technology shift from analog CCTV (closed-circuit 
-			television) surveillance to full digital, network-based video surveillance. I started 
-			from very basic work: C++ coding, debugging, and software versioning, in which, however, 
-			I got access to the complete source code and documents of a well-designed modern video 
-			surveillance system and I could thereby explore and understand every details of the 
-			software in a short term. Basically, the system is centered on a digital video recorder 
-			(DVR), with limited remote access over Internet (Fig.9). </p>
-		<img src="./images/dvr.png" />
-		<p>The system supports multiple cameras and various peripheral devices for status detection 
-			or control. For example, a video matrix switcher is usually used to switch videos to 
-			wall-mount monitors or multi-channel DVR. The peripheral devices are connected to DVR 
-			through serial communication links. Videos are captured, digitized, and compressed by 
-			DVR, and recorded into files on hard drive. Remote access over Internet is an important 
-			extension to local video surveillance. I had developed ActiveX controls and web pages 
-			that can work with IE browser to support web style remote surveillance. Then users may 
-			connect to DVR over Internet to remotely control peripheral devices, receive real-time 
-			streaming videos, or retrieve recorded videos. </p>
-		<p>I had also led to develop a plug-in style software framework for video surveillance 
-			system to support built-in intelligence, such as sound and motion detection, adaptive 
-			adjustment of video’s dimension, resolution, and frame rate, face detection and 
-			recognition, and any other user-demand functions. Image analysis and processing 
-			algorithms are implemented in a series of software plug-ins (filters), which can be 
-			chained working as required.  </p>
+		<div class="section">
+			<h3>Live and On-Demand Peer-to-Peer Video Streaming</h3>
+			<p>In a traditional media streaming system, content is constantly delivered directly from 
+				media server to each of the clients. Bandwidth cost usually determined application 
+				deployment and system expansion (Fig.6). I had ever led a team to develop a peer-to-peer 
+				(P2P) media streaming system to support low-cost streaming media. In the system, all 
+				clients work as peer nodes simultaneously functioning as “clients” and “servers” to the 
+				other nodes. Media content is firstly sliced into pieces by source server, and then the 
+				content pieces are delivered from server to nodes or forwarded from nodes to nodes as 
+				requested, rather than constantly (Fig.7). </p>
+			<img src="./images/media-streaming.png" />
+			<p>A node has a playing position and usually caches a range of content around its current 
+				position. Distance of two nodes is the difference of their playing positions. Each node
+				keeps a list of peers (other known nodes) that sorted on the distance. A node distributes 
+				its cache information periodically to neighbors (some nearest peers), and forwards 
+				received cache information to neighbors too (Fig.3). Nodes always try to download content 
+				pieces from selected neighbors (partners) firstly, and only turn to source server when a 
+				slice cannot be delivered in time from partners. A node will schedule downloading from 
+				partners or from server based on the maps of content availability updated by partners. 
+				In addition, nodes also report their cache information periodically to a tracker sever, 
+				so that the tracker server actually keeps a complete list of nodes and their cache 
+				information. When a node just joins the system or in any emergent situations, it may 
+				fetch an initial list of peers from the tracker server (Fig.8). </p>
+			<img src="./images/p2p-streaming.png" />
+			<p>We had also developed a web-based application to provide live and on-demand video streaming 
+				service, which supports both traditional media streaming system and our P2P media streaming 
+				system as backbone. The application consists of web portal, users management, and 
+				advertisement management. I worked as a director to contribute to product requirements, 
+				system design, and daily management of software development (Fig.8). </p>
+		</div>
+		<div class="section">
+			<h3>Digital and Network-Based Video Surveillance</h3>
+			<p>I spent the first 5 years of my career as software developer in the area of video 
+				surveillance, during its latest technology shift from analog CCTV (closed-circuit 
+				television) surveillance to full digital, network-based video surveillance. I started 
+				from very basic work: C++ coding, debugging, and software versioning, in which, however, 
+				I got access to the complete source code and documents of a well-designed modern video 
+				surveillance system and I could thereby explore and understand every details of the 
+				software in a short term. Basically, the system is centered on a digital video recorder 
+				(DVR), with limited remote access over Internet (Fig.9). </p>
+			<img src="./images/dvr.png" />
+			<p>The system supports multiple cameras and various peripheral devices for status detection 
+				or control. For example, a video matrix switcher is usually used to switch videos to 
+				wall-mount monitors or multi-channel DVR. The peripheral devices are connected to DVR 
+				through serial communication links. Videos are captured, digitized, and compressed by 
+				DVR, and recorded into files on hard drive. Remote access over Internet is an important 
+				extension to local video surveillance. I had developed ActiveX controls and web pages 
+				that can work with IE browser to support web style remote surveillance. Then users may 
+				connect to DVR over Internet to remotely control peripheral devices, receive real-time 
+				streaming videos, or retrieve recorded videos. </p>
+			<p>I had also led to develop a plug-in style software framework for video surveillance 
+				system to support built-in intelligence, such as sound and motion detection, adaptive 
+				adjustment of video’s dimension, resolution, and frame rate, face detection and 
+				recognition, and any other user-demand functions. Image analysis and processing 
+				algorithms are implemented in a series of software plug-ins (filters), which can be 
+				chained working as required.  </p>
+		</div>
 	</div>
 </div>
 <div id="footer">
