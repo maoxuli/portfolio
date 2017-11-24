@@ -26,8 +26,8 @@
 				asynchronous I/O with event-driven notification (reactor design pattern), popular 
 				Internet protocols and message serialization. NetB is not a software framework; 
 				it is a C++ library consists of the components useful for assembling network 
-				applications</p>
-			<img src="./images/netb.png" />
+				applications (Fig.1)</p>
+			<img src="./images/fig-1.png" />
 			<p>NetB has been now released as an open-source software library under GPL license. 
 				The repository of source code and documents is at <a href="https://github.com/maoxuli/netb">
 				https://github.com/maoxuli/netb.</a>
@@ -45,13 +45,13 @@
 				(Fig.2). I had worked in a team (as consultant and contract software engineer) to 
 				develop a remote monitoring system based on public Internet, which supports a large 
 				number of unattended monitoring stations with a single remote monitoring center (Fig.3).</p>
-			<img src="./images/remote-monitoring.png" />
+			<img src="./images/fig-2-3.png" />
 			<p>We developed a data server for unattended monitoring stations, which receives monitoring 
 				data from local serial devices and forwards it to remote monitoring center over public 
 				Internet (Fig.4). The hardware platform is a headless microcomputer (Fig.5). I was in 
 				charge of the development of software running on data server, as well as the SDK used 
 				for development of software running in the monitoring center. </p>
-			<img src="./images/data-server.png" />
+			<img src="./images/fig-4-5.png" />
 			<p>In addition, we developed a dedicated VPN (virtual private network) system to enhance 
 				the network security and performance. The VPN works in a peer-to-peer (P2P) manner 
 				and in most cases it can establish direct UDP connections across public Internet, 
@@ -67,7 +67,7 @@
 				other nodes. Media content is firstly sliced into pieces by source server, and then the 
 				content pieces are delivered from server to nodes or forwarded from nodes to nodes as 
 				requested, rather than constantly (Fig.7). </p>
-			<img src="./images/media-streaming.png" />
+			<img src="./images/fig-6-7.png" />
 			<p>A node has a playing position and usually caches a range of content around its current 
 				position. Distance of two nodes is the difference of their playing positions. Each node
 				keeps a list of peers (other known nodes) that sorted on the distance. A node distributes 
@@ -80,7 +80,7 @@
 				so that the tracker server actually keeps a complete list of nodes and their cache 
 				information. When a node just joins the system or in any emergent situations, it may 
 				fetch an initial list of peers from the tracker server (Fig.8). </p>
-			<img src="./images/p2p-streaming.png" />
+			<img src="./images/fig-8.png" />
 			<p>We had also developed a web-based application to provide live and on-demand video streaming 
 				service, which supports both traditional media streaming system and our P2P media streaming 
 				system as backbone. The application consists of web portal, users management, and 
@@ -97,7 +97,7 @@
 				surveillance system and I could thereby explore and understand every details of the 
 				software in a short term. Basically, the system is centered on a digital video recorder 
 				(DVR), with limited remote access over Internet (Fig.9). </p>
-			<img src="./images/dvr.png" />
+			<img src="./images/fig-9.png" />
 			<p>The system supports multiple cameras and various peripheral devices for status detection 
 				or control. For example, a video matrix switcher is usually used to switch videos to 
 				wall-mount monitors or multi-channel DVR. The peripheral devices are connected to DVR 
