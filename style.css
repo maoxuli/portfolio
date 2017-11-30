@@ -81,6 +81,13 @@ body {
 	margin: 0;
 }
 
+.section .meta {
+	font-size: 14px;
+	font-weight: 200;
+	margin-top: 5px;
+	text-align: center;
+}
+
 .section p {
 	text-align: justify;
 	font-weight: 200;
